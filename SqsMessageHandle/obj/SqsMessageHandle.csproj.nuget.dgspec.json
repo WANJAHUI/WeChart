@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Administrator\\Desktop\\SqsMessageHandle\\SqsMessageHandle\\SqsMessageHandle.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Administrator\\Desktop\\SqsMessageHandle\\SqsMessageHandle\\SqsMessageHandle.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\SqsMessageHandle\\SqsMessageHandle\\SqsMessageHandle.csproj",
+        "projectName": "SqsMessageHandle",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\SqsMessageHandle\\SqsMessageHandle\\SqsMessageHandle.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\SqsMessageHandle\\SqsMessageHandle\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Administrator\\Desktop\\Bt_DDD\\BtPackage": {},
+          "D:\\G2N\\gskg2n\\backend\\CafPackage": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.0.35, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.1.6, )"
+            },
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Amazon.Lambda.SQSEvents": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Amazon.Lambda.Serialization.SystemTextJson": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.Exchange.WebServices.NETStandard": {
+              "target": "Package",
+              "version": "[1.1.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Senparc.Weixin.Cache.CsRedis": {
+              "target": "Package",
+              "version": "[0.3.501, )"
+            },
+            "Senparc.Weixin.Work": {
+              "target": "Package",
+              "version": "[3.9.501, )"
+            },
+            "aliyun-net-sdk-core": {
+              "target": "Package",
+              "version": "[1.5.10, )"
+            },
+            "qcloudsms_csharp": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

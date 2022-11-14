@@ -1,0 +1,20 @@
+
+{
+    "region" : "cn-northwest-1",
+    "profile" : "Gield",
+    "configuration" : "Release",
+    "framework"     : "netcoreapp3.1",
+    "function-name" : "SQSConsume",
+    "function-description" : "APICenter 消息推送SQS触发器",
+    "package-type"         : "Zip",
+    "function-handler"     : "SqsMessageHandle::SqsMessageHandle.Function::FunctionHandler",
+    "function-memory-size" : 256,
+    "function-timeout"     : 170,
+    "function-runtime"     : "dotnetcore3.1",
+    "tracing-mode"         : "PassThrough",
+    "environment-variables" : "\"agentid\"=\"1000032\";\"corpid\"=\"wwd1450d6813cd1001\";\"appsecret\"=\"VoEsPhmIy4b0Pgu4FevpkbMzZ1psccUIQJNQGA1qoQA\";\"redis\"=\"elasticache-test-01.scbsm2.ng.0001.cnw1.cache.amazonaws.com.cn:6379,defaultDatabase=8,password=\"",
+    "image-tag"             : "",
+    "function-role"         : "arn:aws-cn:iam::618880628666:role/AWSLambdaBasicExecutionRole",
+    "function-subnets"      : "subnet-08012bb2d59720ab9,subnet-0c168ab6688287e0a,subnet-057f7634c6d6b23d4",
+    "function-security-groups" : "sg-039621fcd4eea8c6d,sg-893ea4e0,sg-f2621d9b"
+}
